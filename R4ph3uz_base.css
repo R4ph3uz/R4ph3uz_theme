@@ -474,6 +474,7 @@
 #app-mount .sidebar-2K8pFh {
   border-radius: 0;
   background: rgba(0, 0, 0, var(--left-brightness));
+  box-shadow: 8px 1px 8px rgba(0,0,0,0.8);
 }
 #app-mount .sidebar-2K8pFh .container-PNkimc,
 #app-mount .sidebar-2K8pFh .privateChannels-1nO12o,
@@ -616,7 +617,7 @@
 }
 #app-mount .form-2fGMdU {
   margin-top: 0;
-  filter: blur(10px)
+  background: var(--background-secondary);
 }
 #app-mount .form-2fGMdU .attachButton-2WznTc {
   padding: 10px;
