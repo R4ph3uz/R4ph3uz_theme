@@ -11,17 +11,17 @@
   --gradient-90: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 0.9), rgba(var(--gradient-secondary), 0.9));
   --text-shadow: 1;
   --chat-embed: var(--background-secondary);
-  --discord-green: 67, 181, 129;
-  --discord-yellow: 219, 171, 9;
-  --discord-red: 215, 58, 73;
-  --discord-purple: 89, 54, 149;
-  --discord-invisible: 117, 128, 142;
-  --discord-nitro: 255, 115, 250;
-  --discord-blurple: 114, 137, 218;
-  --discord-spotify: 29, 185, 84;
-  --discord-twitch: 89, 54, 149;
-  --discord-xbox: 16, 124, 16;
-  --version: "Frosted Glass 2.0.3";
+  --discord-green: var(--gradient);
+  --discord-yellow:var(--gradient);
+  --discord-red: var(--gradient);
+  --discord-purple: var(--gradient);
+  --discord-invisible: var(--gradient);
+  --discord-nitro: var(--gradient);
+  --discord-blurple: var(--gradient);
+  --discord-spotify: var(--gradient);
+  --discord-twitch: var(--gradient);
+  --discord-xbox: var(--gradient);
+  --version: "R4ph3uz 0.0.1";
 }
 .theme-dark {
   --header-primary: #fff;
@@ -701,6 +701,7 @@
   box-shadow: none;
   overflow: hidden;
   opacity: 0;
+  background: var(--gradient);
   animation: fadeIn 0.3s ease forwards;
 }
 #app-mount .userPopout-3XzG_A .headerNormal-T_seeN {
@@ -1378,6 +1379,7 @@
 }
 html.platform-win .scroller-2TZvBN {
   padding-top: 10px;
+  background: rgba(0,0,0,0.2);
 }
 html.platform-osx .macButtons-2MuSAC {
   position: absolute;
