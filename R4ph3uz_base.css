@@ -36,7 +36,7 @@
   --interactive-active: #fff;
   --interactive-muted: #777;
   --background-primary: transparent;
-  --background-secondary: rgba(0, 0, 0, 0.3);
+  --background-secondary: rgba(0, 0, 0, 0.5);
   --background-secondary-alt: transparent;
   --background-tertiary: transparent;
   --background-accent: #4f545c;
@@ -616,6 +616,7 @@
 }
 #app-mount .form-2fGMdU {
   margin-top: 0;
+  filter: blur(10px)
 }
 #app-mount .form-2fGMdU .attachButton-2WznTc {
   padding: 10px;
