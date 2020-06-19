@@ -617,7 +617,6 @@
 }
 #app-mount .form-2fGMdU {
   margin-top: 0;
-  background: var(--background-secondary);
 }
 #app-mount .form-2fGMdU .attachButton-2WznTc {
   padding: 10px;
@@ -701,11 +700,11 @@
   box-shadow: none;
   overflow: hidden;
   opacity: 0;
-  background: var(--gradient);
   animation: fadeIn 0.3s ease forwards;
 }
 #app-mount .userPopout-3XzG_A .headerNormal-T_seeN {
   background: transparent;
+  background: var(--gradient);
 }
 #app-mount .userPopout-3XzG_A .headerPlaying-j0WQBV {
   background: var(--gradient-50);
