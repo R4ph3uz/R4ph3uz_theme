@@ -839,7 +839,7 @@
 }
 #app-mount #guild-header-popout .item-1tOPte.colorPremium-p4p7qO .icon-LYJorE {
   color: #fff;
-  background: var(--gradient-90);
+  background: transparent;
 }
 #app-mount #guild-header-popout .item-1tOPte.colorBrand-ROmMP1 {
   color: #fff;
@@ -847,7 +847,7 @@
 }
 #app-mount #guild-header-popout .item-1tOPte.colorBrand-ROmMP1 .icon-LYJorE {
   color: #fff;
-  background: var(--gradient-90);
+  background: transparent;
 }
 #app-mount #guild-header-popout .item-1tOPte.colorDanger-2qLCe1 {
   color: #fff;
@@ -855,7 +855,7 @@
 
 }
 #app-mount #guild-header-popout .item-1tOPte.colorDanger-2qLCe1 .icon-LYJorE {
-  color: rgb(var(--discord-red));
+  color: #fff;
 }
 #app-mount .container-3ayLPN {
   background: transparent;
