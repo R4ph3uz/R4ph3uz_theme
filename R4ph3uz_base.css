@@ -11,11 +11,11 @@
   --gradient-90: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 0.9), rgba(var(--gradient-secondary), 0.9));
   --text-shadow: 1;
   --chat-embed: var(--background-secondary);
-  --discord-green: var(--gradient);
-  --discord-yellow:var(--gradient);
-  --discord-red: var(--gradient);
-  --discord-purple: var(--gradient);
-  --discord-invisible: var(--gradient);
+  --discord-green: 67, 181, 129;
+  --discord-yellow: 219, 171, 9;
+  --discord-red: 215, 58, 73;
+  --discord-purple: 89, 54, 149;
+  --discord-invisible: 117, 128, 142;
   --discord-nitro: var(--gradient);
   --discord-blurple: var(--gradient);
   --discord-spotify: var(--gradient);
@@ -120,7 +120,7 @@
   z-index: 1;
 }
 ::selection {
-  background: rgb(var(--gradient-primary));
+  background: rgb(var(--gradient-secondary));
   color: var(--text-normal);
 }
 #app-mount .app-2rEoOp::before {
@@ -270,7 +270,7 @@
 }
 #app-mount .actionRed-gYn8D3,
 #app-mount .colorRed-1TFJan {
-  background: rgba(var(--discord-red), 0.5);
+  background: rgba(var(--discord-red), 1);
   border: none;
   color: #fff;
   transition: 0.2s ease;
@@ -703,11 +703,10 @@
   animation: fadeIn 0.3s ease forwards;
 }
 #app-mount .userPopout-3XzG_A .headerNormal-T_seeN {
-  background: transparent;
   background: var(--gradient);
 }
 #app-mount .userPopout-3XzG_A .headerPlaying-j0WQBV {
-  background: var(--gradient-50);
+  background: var(--gradient-90);
 }
 #app-mount .userPopout-3XzG_A .headerXbox-3G-4PF {
   background: rgba(var(--discord-xbox), 0.3);
@@ -835,19 +834,25 @@
   background: var(--background-secondary);
 }
 #app-mount #guild-header-popout .item-1tOPte.colorPremium-p4p7qO {
-  color: rgb(var(--discord-nitro));
+  color: #fff;
+  background: var(--gradient-90);
 }
 #app-mount #guild-header-popout .item-1tOPte.colorPremium-p4p7qO .icon-LYJorE {
-  color: rgb(var(--discord-nitro));
+  color: #fff;
+  background: var(--gradient-90);
 }
 #app-mount #guild-header-popout .item-1tOPte.colorBrand-ROmMP1 {
-  color: rgb(var(--discord-blurple));
+  color: #fff;
+  background: var(--gradient-90);
 }
 #app-mount #guild-header-popout .item-1tOPte.colorBrand-ROmMP1 .icon-LYJorE {
-  color: rgb(var(--discord-blurple));
+  color: #fff;
+  background: var(--gradient-90);
 }
 #app-mount #guild-header-popout .item-1tOPte.colorDanger-2qLCe1 {
-  color: rgb(var(--discord-red));
+  color: #fff;
+  background: var(--gradient-90);
+
 }
 #app-mount #guild-header-popout .item-1tOPte.colorDanger-2qLCe1 .icon-LYJorE {
   color: rgb(var(--discord-red));
