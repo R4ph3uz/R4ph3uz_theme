@@ -834,16 +834,15 @@
   background: var(--background-secondary);
 }
 #app-mount #guild-header-popout .item-1tOPte.colorPremium-p4p7qO {
-  color: #fff;
-  background: var(--gradient-90);
+  color: var(--interactive-normal);
+
 }
 #app-mount #guild-header-popout .item-1tOPte.colorPremium-p4p7qO .icon-LYJorE {
   color: #fff;
   background: transparent;
 }
 #app-mount #guild-header-popout .item-1tOPte.colorBrand-ROmMP1 {
-  color: #fff;
-  background: var(--gradient-90);
+  color: var(--interactive-normal);
 }
 #app-mount #guild-header-popout .item-1tOPte.colorBrand-ROmMP1 .icon-LYJorE {
   color: #fff;
@@ -1055,7 +1054,7 @@
 }
 #app-mount .root-1gCeng {
   box-shadow: none;
-  background: transparent;
+  background: var(--activity-card-background);
 }
 #app-mount .root-1gCeng .action-1lSjCi {
   background: var(--white);
